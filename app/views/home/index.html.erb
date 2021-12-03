@@ -1,0 +1,12 @@
+<h1> Boas vindas ao Diário de Estudo </h1>
+
+<h3>Itens cadastrados</h3>
+
+<% @study_items.each do |study_item| %>
+  <dl>
+    <dt>Nome:</dt>
+    <dd><%= study_item[:name] %></dd>
+    <dt>Categoria:</dt>
+    <dd><%= study_item[:category] %></dd>
+  </dl>
+<% end %>
