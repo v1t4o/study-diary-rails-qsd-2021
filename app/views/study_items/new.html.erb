@@ -1,0 +1,9 @@
+<h1>Cadastrar um item de estudo</h1>
+
+<%= form_for @study_item do |f| %>
+  <%= f.label :name, 'Nome' %>
+  <%= f.text_field :name %><br>
+  <%= f.label :category, 'Categoria' %>
+  <%= f.text_field :category %><br>
+  <%= f.submit 'Salvar' %>
+<% end %>
