@@ -17,6 +17,10 @@ class StudyItemsController < ApplicationController
     render :new
   end
 
+  def show
+    @study_item = StudyItem.find(params[:id])
+  end
+
   private
 
   def study_item_params
