@@ -1,0 +1,13 @@
+<%= form_for @study_item do |f| %>
+  <div class="field">
+    <%= f.label :name, 'Nome' %>
+    <%= f.text_field :name %><br>
+  </div>
+  <div class="field">
+    <%= f.label :category, 'Categoria' %>
+    <%= f.text_field :category %><br>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Salvar' %>
+  </div>
+<% end %>
