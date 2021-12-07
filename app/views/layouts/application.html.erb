@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Diário de Estudos</title>
+    <title><%= content_for?(:title) ? yield(:title) : "Diário de Estudos" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : 'About Sharks'%>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +12,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <%= render 'layouts/navigation' %>
+    </header>
+
+    <main role="main" class="content">
+      <%= yield %>
+    </main>
+
+    <footer>
+      <%= render 'layouts/footer' %>
+    </footer>
+
   </body>
 </html>
