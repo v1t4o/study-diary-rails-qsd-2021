@@ -1,24 +1,13 @@
-# README
+# Study Diary Rails - QSD 21
+[<img src="/public/images/qsd2021.png"/>](/images/qsd2021.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Conceito
 
-Things you may want to cover:
+Diário de estudos em desenvolvimento com Ruby on Rails para o programa Quero Ser Dev Locaweb 2021 com parceria da Campus Code
 
-* Ruby version
+## Preparação de ambiente
 
-* System dependencies
+```bash
+bin/setup
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
