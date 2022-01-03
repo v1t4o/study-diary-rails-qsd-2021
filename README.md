@@ -1,5 +1,5 @@
 # Study Diary Rails - QSD 21
-[<img src="/public/images/qsd2021.png"/>](/images/qsd2021.png)
+[<img src="/public/qsd2021.png"/>](/images/qsd2021.png)
 
 ## Conceito
 
